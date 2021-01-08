@@ -86,7 +86,8 @@ class Rackostores extends Module
     public function hookDisplayFooter()
     {
       $idLang = Context::getContext()->language->id;
-
+      dump(new Stores::getSotres();
+      
       $arreglo_spain = array();
       $arreglo_wordlwide = array();
       $stores = Db::getInstance()->executeS('SELECT DISTINCT a.id_customer , c.email, c.dato_extra1, s.name, c.website
@@ -112,7 +113,7 @@ class Rackostores extends Module
                 $store['address1'] = $address->address1;
                 $store['city'] = $address->city;
                 $store['phone'] = $address->phone;
-      $store['phone_mobile'] = $address->phone_mobile;
+                $store['phone_mobile'] = $address->phone_mobile;
                 $store['note'] = '';
                 $store['postcode'] = $address->postcode;
                 $store['state'] = $state;
