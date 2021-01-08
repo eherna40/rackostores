@@ -1,0 +1,99 @@
+/**
+* 2007-2019 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2019 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+
+
+.custom-shops-title{
+  font-family: eurostile-extended, sans-serif;
+    font-weight: 400;
+    border-bottom: solid 0px #e3e3e3;
+    font-size: 30px;
+    margin-bottom: 10px !important;
+    padding-left: 12px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid #eee;
+}
+
+
+.custom-shop-card{
+  height: 210px;
+  color: black;
+  font-family: 'Open Sans'
+  position: relative;
+  width: 100%;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  padding: .65em;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+  min-height: 120px;
+  transition: .1s linear all;
+}
+.custom-shop-card:hover{
+  box-shadow: 0 3px 7px rgba(0,0,0,.12);
+}
+
+.stores-inner {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+
+}
+
+.line{
+  border-bottom: 1px solid black;
+  display: block;
+  margin-top: 13px;
+}
+.id-cms-8 h1.page-title{
+font-weight: bold !important;
+}
+
+.custom-shops-name{
+  font-family: eurostile-extended, sans-serif;
+      font-weight: bolder;
+      font-size: 14px;
+color: #596060;
+margin-bottom: 5px;
+text-transform: uppercase;
+}
+
+.custom-shop-card a{
+  color: black !important;
+}
+.custom-shop-card div{
+  margin: 2px 0;
+}
+
+
+.custom-shops-web a,
+.custom-shops-email a{
+  color: #c40404 !important;
+}
